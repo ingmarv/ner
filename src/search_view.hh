@@ -22,6 +22,8 @@
 
 #include <string>
 #include <thread>
+#include <mutex>
+#include <condition_variable>
 
 #include "line_browser_view.hh"
 #include "notmuch.hh"

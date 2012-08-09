@@ -24,6 +24,8 @@
 
 #include <sys/types.h>
 #include <sys/wait.h>
+#include <stdexcept>
+#include <unistd.h>
 
 MessagePart::MessagePart(const std::string & id_)
     : id(id_), folded(true)

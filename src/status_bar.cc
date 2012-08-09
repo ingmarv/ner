@@ -24,6 +24,7 @@
 #include "view_manager.hh"
 #include "line_editor.hh"
 #include "util.hh"
+#include <unistd.h>
 
 StatusBar * StatusBar::_instance = 0;
 

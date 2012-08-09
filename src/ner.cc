@@ -20,6 +20,7 @@
 #include <iostream>
 #include <sys/types.h>
 #include <signal.h>
+#include <unistd.h>
 
 #include "ner.hh"
 #include "ncurses.h"
